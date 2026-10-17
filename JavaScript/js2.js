@@ -81,3 +81,46 @@ const paragraph = "Lorem ipsum dolor sit amet\
 let parag = 'lorem ipsum dolor sit amet\nconsectetur adipi\nsicing elit. Quisquam, quod.'
 
 console.log(parag)
+
+
+let fullName = `${parag} ${paragraph}`
+
+console.log(fullName)
+
+//string methods
+
+let = language = "JavaScript"
+console.log(language.length)
+
+let list = [1, 2, 3 ,4]
+console.log(list[0])
+
+let uppercase = "upper"
+
+console.log(uppercase.toUpperCase())
+
+let lowercase = "LOWER"
+
+console.log(lowercase.toLowerCase())
+
+let javajs = "javascript"
+console.log(javajs.substring(3, 6))
+console.log(javajs.substring(4))
+
+let split = "split splits"
+
+console.log(split.split(""))
+
+let str = "hi how are you , how you"
+console.log(str.replace('are', 'how'))
+
+//match
+
+let match = "I love Javascript if you dont love Javascript what else can you love"
+
+console.log(match.match("love"))
+
+console.log(match.match(/love/g))
+
+
+console.log(+"25")
